@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resposive Blog post Section</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <h2 class="logo">DC<span>SS</span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a  class="active"href="2.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="contact_form.html">Contact Us</a></li>
+            </ul>
+            <button type="button" onclick="document.location='https://www.youtube.com/@hak5'"><b>Youtube</b></button>
+        </nav>
+    </div>
+
+    <div class="container">
+       <div class="row">
+        <div class="header">
+            <h1>cyber security</h1>
+            <p>Know about cyber security and be safe from cyber world</p>
+        </div>
+        <div class="content">
+            <div class="card">
+                <img src="image/sql.jpeg">
+                <h4>What is Sqlinjection</h4>
+                <p>SQL injection, also known as SQLI, is a common attack vector that uses malicious SQL code for backend database manipulation to access information that was not intended to be displayed. This information may include any number of items, including sensitive company data, user lists or private customer details.</p>
+            </div>
+
+
+
+            <div class="card">
+                <img src="image/xss.png">
+                <h4>Cross Site Scripting (XSS)</h4>
+                <p>Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. </p>
+            </div>
+
+            <div class="card">
+                <img src="image/lfi.png">
+                <h4>Local File Inclusion</h4>
+                <p> (LFI) allows an attacker to include files on a server through the web browser. This vulnerability exists when a web application includes a file without correctly sanitising the input, allowing and attacker to manipulate the input and inject path traversal characters and include other files from the web server.</p>
+            </div>
+            
+        </div>
+       </div> 
+    </div>
+    
+</body>
+</html>
